@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class postingan extends Model
+class Postingan extends Model
 {
     use HasFactory;
     protected $table = 'postingan';
@@ -14,5 +14,6 @@ class postingan extends Model
         'content',
         'foto',
         'kategori',
+        'penting',
     ];
 }

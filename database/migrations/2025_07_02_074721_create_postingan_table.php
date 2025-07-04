@@ -17,6 +17,7 @@ return new class extends Migration
             $table->text('content');
             $table->string('foto');
             $table->string('kategori');
+            $table->integer('penting');
             $table->timestamps();
         });
     }
