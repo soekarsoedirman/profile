@@ -1,2 +1,13 @@
-<h1>INI LIST POSTINGAN / BLOG</h1>
-<H2>BAGUSNYA GIMANA YA TAMPILANNYA?</H2>
+<x-app-layout>
+    <div class="page">
+        <div class="artikel">
+            <div class="title">
+                <h3></h3>
+            </div>
+            <div class="content">
+                <img src="" alt="">
+                <p></p>
+            </div>
+        </div>
+    </div>
+</x-app-layout>

@@ -21,7 +21,7 @@ Route::get('/ayakashi/buatpostingan', [PribadiController::class, 'buatpostingan'
 
 Route::post('/ayakashi/buatpostingan/store', [PribadiController::class, 'postinganstore'])->name('storepostingan');
 
-Route::get('/ayakahsi/postingan/edit', [PribadiController::class,'editpostingan'])->name('editpostingan');
+Route::get('/ayakashi/postingan/edit/{id}', [PribadiController::class,'editpostingan'])->name('editpostingan');
 
 Route::post('/ayakashi/postingan/update', [PribadiController::class, 'updatepostingan'])->name('updatepostingan');
 
@@ -29,7 +29,7 @@ Route::delete('/ayakashi/postingan/delete', [PribadiController::class, 'deletepo
 
 Route::get('/ayakashi/prestasi', [PribadiController::class, 'prestasi'])->name('admprestasi');
 
-Route::post('/ayakashi/prestasi/store', [PribadiController::class, 'prestasistore'])->name('prestasistre');
+Route::post('/ayakashi/prestasi/store', [PribadiController::class, 'prestasistore'])->name('prestasistore');
 
 Route::post('/ayakashi/prestasi/update', [PribadiController::class, 'updateprestasi'])->name('updateprestasi');
 
